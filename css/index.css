@@ -1,0 +1,140 @@
+.contain{
+    background-image: url("../banner.png");
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+background-color: #1E202B;
+padding-top: 100px;
+
+}
+nav{
+    background-color: #1E202B;
+    color: white;
+    font-size: 20px;
+
+}
+
+nav ul li{
+    color: white !important;
+    font-size: 20px;
+   margin:0 20px 20px 0;
+}
+form{
+    position: relative;
+    width: 83%;
+    margin: auto;
+   
+}
+input{
+    background-color:#1E202B;
+    position:absolute;
+    width: 100%;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    
+
+
+}
+input:focus{
+    outline: none;
+}
+button{
+    position:absolute;
+    left:90%;
+    margin:5px;
+    height: 47px;
+    width: 80px;
+    border-radius: 40px;
+  
+
+
+}
+
+.container{
+    margin-top:100px;
+    border-radius: 20px;
+  background-color: #222531;
+    color:white;
+   
+}
+.row{
+    padding: 0;
+}
+
+.titlethree{
+    background-color: #2D303D;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.titletwo{
+    background-color:#222531 ;
+    border-radius: 10px;
+
+}
+.titleone{
+background-color: #565656;
+border-radius: 10px;
+
+}
+
+.main_three{
+background-color: #323544;
+border-radius: 10px;
+padding:5px;
+}
+.main_one{
+    background-color: #2D303D;
+    border-radius: 10px;
+    padding:5px;
+}
+.main_two{
+    background-color: #323544;
+    border-radius: 10px;
+    padding:5px;
+}
+
+
+img{
+    width:30%;
+}
+p{
+font-size: 20px;
+}
+
+nav img{
+    width: 5%;
+    margin-right:10px;
+}
+
+
+.footer{
+    background-color: #565656;
+
+    padding:150px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+
+ 
+}
+
+.footer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer form button{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    border:0px solid transparent;
+    border-radius: 50%;
+    background-color: #565656;
+    color:blue;
+}
